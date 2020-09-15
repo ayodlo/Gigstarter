@@ -6,77 +6,79 @@
     }
     
     .nav-container {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: #141414;
-        font-size: 1.3rem;
-        position: fixed;
-        background: #f5f5f5;
+      align-items: center;
+      background-color: #f5f5f5;
+      color: #141414;
+      display: flex;
+      flex-direction: row;
+      font-size: 1.3rem;
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
     
     .nav-right, .nav-left {
-        width: 50%;
-        padding: 0 4rem;
-        line-height: 5rem;
+      line-height: 5rem;
+      padding: 0 4rem;
+      width: 50%;
     }
     
     .nav-left__item {
         display: inline-block;
         height: 100%;
-        transition: color ease-in-out 1s;
+        margin-right: 1.5rem;
+        transition: color ease-in-out .5s;
     }
     
     .nav-right {
+      align-items: center;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
     }
     
     .nav-right__item {
-        margin-right: 2rem;
-        transition: color ease-in-out 1s;
+        margin-right: 1.5rem;
+        transition: color ease-in-out .5s;
     }
     
     .nav-right__last-item {
         padding-right: 0;
-        transition: color ease-in-out 1s;
+        transition: color ease-in-out .5s;
     }
     
     .nav-right__item:hover,
     .nav-right__last-item:hover,
     .nav-left__item:hover {
+      color: #1b6861;;
         cursor: pointer;
-        color: #4a6437;
     }
     
     .nav-link {
+      background-color: none;
+      color: #141414;
         text-decoration: none;
-        background-color: none;
-        color: #141414;
     }
-    }
+}
     
     /* Position and sizing of burger button */
     @media(max-width: 700px) {
     
     .nav-container {
-        display: none;
-        color: #141414;
-        background: #f5f5f5;
+      background: #f5f5f5;
+      color: #141414;
+      display: none;
     }
     
     .menu-item {
+      color: #141414;
         text-decoration: none;
-        color: #141414;
         transition: all 1s ease-in-out;
     }
     
     .menu-item:hover {
+      color: #1b6861;;
         cursor: pointer;
-        color: #2cd82c;
     }
     
     .menu-item:focus {
@@ -102,7 +104,7 @@
       
       /* Color/shape of burger icon bars on hover*/
       .bm-burger-bars-hover {
-        background: #2cd82c;
+        background: #1b6861;;
       }
       
       /* Position and sizing of clickable cross button */

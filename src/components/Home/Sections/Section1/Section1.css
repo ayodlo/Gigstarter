@@ -1,0 +1,53 @@
+.section1-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.section1-career-container {
+  align-items: center;
+  color: white;
+  background-image: url('../../../../assets/greenind.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  max-width: 50%;
+  padding: 4.5rem;
+}
+
+
+.section1-career-container_description {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  margin-left: -2rem;
+  margin-top: 0;
+}
+
+.section1-career-container_heading {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: .5rem;
+  margin-left: -2rem;
+  margin-top: 2rem;
+}
+
+.section1-step-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.section1-step {
+  width: 20%;
+}

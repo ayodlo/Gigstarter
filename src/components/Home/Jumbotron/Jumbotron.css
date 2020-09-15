@@ -1,0 +1,76 @@
+.jumbotron {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 1000px;
+}
+
+.jumbotron-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 1rem 1.5rem;
+  transition: all .5s ease-in-out;
+}
+
+.jumbotron-button:hover {
+  background: #1b6861;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.jumbotron-container {
+  background-color: white;
+  height: 100vh;
+  background-image: url(../../../assets/back2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 100vw;
+  top: 0;
+}
+
+.jumbotron-container_heading1 {
+  font-size: 4em;
+}
+
+.jumbotron-container_heading2 {
+  font-family: 'Open Sans', sans-serif;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-size: 2em;
+  font-style: italic;
+}
+
+@media (max-width: 575.98px) {
+  .jumbotron {
+    width: 100vw;
+  }
+  
+  .jumbotron-container {
+    background-position: 25%;
+    background-size: cover;
+  }
+  
+    .jumbotron-container_heading1 {
+      font-size: 2em;
+    }
+
+  .jumbotron-container_heading2 {
+    width: 90vw;
+  }
+
+
+  .Button1 {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+}
