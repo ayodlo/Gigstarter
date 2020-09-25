@@ -1,53 +1,79 @@
-.section1-container {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 1rem 2rem;
-  text-align: center;
-}
+.Section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .Section1__career {
+    color: white;
+    background-image: url('../../../../assets/greenind.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    min-height: 530px;
+    margin: auto;
+    max-width: 50%;
+    min-width: 530px;
+    padding: 4.5rem;
+  }
+  
+  .Section1__career__heading {
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: .5rem;
+    margin-left: -2rem;
+    margin-top: 2rem;
+  }
+  
+  .Section1__career__description {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    margin-left: -2rem;
+    margin-top: 0;
+    width: 75%;
+  }
+  
+  .Section1__steps {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 3rem;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .Section1__steps__step {
+    margin: .5rem;
+    min-width: 100px;
+    width: 20%;
+  }
 
-.section1-career-container {
-  align-items: center;
-  color: white;
-  background-image: url('../../../../assets/greenind.svg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  height: 80vh;
-  justify-content: center;
-  max-width: 50%;
-  padding: 4.5rem;
-}
+@media (max-width: 640px) {
 
+  .Section1__career {
+    background-image: none;
+    color: black;
+    height: auto;
+    min-width: 100%;
+    padding: 2.5rem 1rem 1rem 1rem;
+    width: 100%;
+  }
 
-.section1-career-container_description {
-  font-size: 1.1rem;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  line-height: 1.5rem;
-  margin-left: -2rem;
-  margin-top: 0;
-}
-
-.section1-career-container_heading {
-  font-size: 2.5rem;
-  font-weight: 100;
-  margin-bottom: .5rem;
-  margin-left: -2rem;
-  margin-top: 2rem;
-}
-
-.section1-step-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 50%;
-}
-
-.section1-step {
-  width: 20%;
+  .Section1__career__heading,
+  .Section1__career__description {
+    margin-left: 0;
+    margin-bottom: 1.5rem
+  }
+  
 }

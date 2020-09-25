@@ -1,34 +1,7 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">');
 
-*, *::before, *::after {
+*, html {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-.app-container {
-  background-color: white;
-  color: #141414;
-  font-family: 'Roboto', sans-serif;
-  font-size:1rem;
-  font-weight: 400;
-  height: 100vh;
-  overflow: scroll;
-  overflow-x: hidden;
-  padding-bottom: 4rem;
-  position: fixed;
-  width: 100vw;
-}
-
-.app-container-black-overlay {
-  background-color:rgba(0, 0, 0, 0.5);
-  height: 100vh;
-  width: 100vw;
-}
-
-.app-container-main {
-  position: relative;
-  margin-top: 80px;
-}
+  }

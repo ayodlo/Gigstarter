@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
 //CSS
-import './navigation.css';
+import './Navigation.css';
 
 const Navigation = () => {
     return (

@@ -1,20 +1,15 @@
-@media(min-width: 701px) {
-    .nav-container-mobile {
-        display: none;
-        position: fixed;
-        z-index: 1;
-    }
-    
-    .nav-container {
-      align-items: center;
-      background-color: #f5f5f5;
-      color: #141414;
-      display: flex;
-      flex-direction: row;
-      font-size: 1.3rem;
-      position: fixed;
-      top: 0;
-      width: 100%;
+@media(min-width: 777px) {
+  
+  .nav-container {
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #141414;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
     }
     
     .nav-right, .nav-left {
@@ -32,120 +27,125 @@
     
     .nav-right {
       align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
     }
     
     .nav-right__item {
-        margin-right: 1.5rem;
-        transition: color ease-in-out .5s;
+      margin-right: 1.5rem;
+      transition: color ease-in-out .5s;
     }
     
     .nav-right__last-item {
-        padding-right: 0;
-        transition: color ease-in-out .5s;
+      padding-right: 0;
+      transition: color ease-in-out .5s;
     }
     
     .nav-right__item:hover,
     .nav-right__last-item:hover,
     .nav-left__item:hover {
-      color: #1b6861;;
-        cursor: pointer;
+      color: #39322c;
+      cursor: pointer;
     }
     
     .nav-link {
       background-color: none;
       color: #141414;
-        text-decoration: none;
+      text-decoration: none;
     }
-}
+
+    /*Hide Burger-Menu for large media query */
+    .nav-container-mobile {
+        display: none;
+    }
+
+  }
+  
+  /* Position and sizing of burger button */
+  @media(max-width: 776px) {
     
-    /* Position and sizing of burger button */
-    @media(max-width: 700px) {
-    
-    .nav-container {
-      background: #f5f5f5;
-      color: #141414;
-      display: none;
+    .nav-container-mobile {
+      position: fixed;
+      z-index: 1;
+      background: black;
+      height: 6rem;
+      width: 100vw;
     }
     
     .menu-item {
       color: #141414;
-        text-decoration: none;
-        transition: all 1s ease-in-out;
+      text-decoration: none;
+      transition: all 1s ease-in-out;
+      padding: .5rem 0;
     }
     
     .menu-item:hover {
-      color: #1b6861;;
-        cursor: pointer;
+      color:#39322c;
+      cursor: pointer;
     }
     
     .menu-item:focus {
-        outline: none;
-    }
-    
-    .nav-container-mobile {
-        width: 100vw;
+      outline: none;
     }
     
     .bm-burger-button {
-        position: relative;
-        width: 36px;
-        height: 30px;
-        left: 36px;
-        top: 36px;
-      }
-      
-      /* Color/shape of burger icon bars */
-      .bm-burger-bars {
-        background: #ffffff;
-      }
-      
-      /* Color/shape of burger icon bars on hover*/
-      .bm-burger-bars-hover {
-        background: #1b6861;;
-      }
-      
-      /* Position and sizing of clickable cross button */
-      .bm-cross-button {
-        height: 24px;
-        width: 24px;
-      }
-      
-      /* Color/shape of close button cross */
-      .bm-cross {
-        background: black;
-      }
-      
-      /*
-      Sidebar wrapper styles
-      Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-      */
-      .bm-menu-wrap {
-        position: fixed;
-        height: 100%;
-      }
-      
-      /* General sidebar styles */
-      .bm-menu {
-        background: #ffffff;
-        padding: 2.5em 1.5em 0;
-        font-size: 1.15em;
-        color: black;
-      }
-      
-      /* Morph shape necessary with bubble or elastic */
-      .bm-morph-shape {
-        fill: #373a47;
-      }
-      
-      /* Wrapper for item list */
-      .bm-item-list {
-        color: #ffffff;
-        padding: 0.8em;
-      }
-      
+      position: relative;
+      height: 30px;
+      left: 2rem;
+      top: 2rem;
+      width: 2rem;
+    }
+    
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: #f5f5f5;
+    }
+    
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+      background: #39322c;
+    }
+    
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+    
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: black;
+    }
+    
+    /*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+    .bm-menu-wrap {
+      position: fixed;
+      height: 100%;
+    }
+    
+    /* General sidebar styles */
+    .bm-menu {
+      background: #ffffff;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.15em;
+      color: black;
+    }
+    
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #39322c;
+    }
+    
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #ffffff;
+      padding: 0.8em;
+    }
+    
       /* Individual item */
       .bm-item {
         display: inline-block;
@@ -155,4 +155,10 @@
       .bm-overlay {
         background: rgba(0, 0, 0, 0.3);
       }
+
+      /* Hide Normal Nav for Small Media Query */
+      .nav-container {
+        display: none;
+      }
+
     }

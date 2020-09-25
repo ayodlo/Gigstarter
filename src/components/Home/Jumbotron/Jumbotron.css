@@ -1,76 +1,75 @@
-.jumbotron {
+.Jumbotron {
   align-items: center;
-  color: white;
+  background-color: whitesmoke;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  width: 1000px;
-}
-
-.jumbotron-button {
-  background-color: #ffffff;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  margin-right: 10px;
-  padding: 1rem 1.5rem;
-  transition: all .5s ease-in-out;
-}
-
-.jumbotron-button:hover {
-  background: #1b6861;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.jumbotron-container {
-  background-color: white;
-  height: 100vh;
+  justify-content: center;
+  margin: auto;
   background-image: url(../../../assets/back2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
   background-size: 100vw;
+  height: 100vh;
+  padding-top:6rem;
+  text-align: center;
   top: 0;
 }
 
-.jumbotron-container_heading1 {
+.Jumbotron__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Jumbotron__buttons__button {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  transition: all .5s ease-in-out;
+}
+
+.Jumbotron__buttons__button:hover {
+  background: #39322c;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.Jumbotron__heading1 {
   font-size: 4em;
+  padding:  0 1.5rem;
 }
 
-.jumbotron-container_heading2 {
+.Jumbotron__heading2 {
   font-family: 'Open Sans', sans-serif;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: italic;
+  margin: 2rem auto;
+  width: 600px;
 }
 
-@media (max-width: 575.98px) {
-  .jumbotron {
+@media (max-width: 680px) {
+  .Jumbotron {
+    background-position: 25%;
+    background-size: cover;
+    justify-content: flex-start;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     width: 100vw;
   }
   
-  .jumbotron-container {
-    background-position: 25%;
-    background-size: cover;
+  .Jumbotron__heading1 {
+    font-size: 3em;
   }
-  
-    .jumbotron-container_heading1 {
-      font-size: 2em;
-    }
 
-  .jumbotron-container_heading2 {
+  .Jumbotron__heading2 {
     width: 90vw;
   }
 
-
-  .Button1 {
-    margin-right: 0;
-    margin-bottom: 5%;
-  }
 }
