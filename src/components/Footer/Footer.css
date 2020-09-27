@@ -1,0 +1,27 @@
+.Footer {
+    padding: 4rem 0;
+}
+
+.Footer__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Footer__social__icon {
+    margin: .5rem 2rem
+}
+
+.Footer__social__icon:hover {
+    cursor: pointer;
+}
+
+.Footer__termsAndPolicy {
+    text-align: center;
+}
+
+.Footer__termsAndPolicy__line {
+    margin: .5rem
+}

@@ -10,18 +10,20 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Navigation from './components/Navigation/Navigation';
 import Signup from './components/Signup/Signup';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
 
   render() {
     return (
         <BrowserRouter>
-            <Route className='navigation' component={Navigation} path='/'/>
-            <Route className='navigation' component={Home} exact path='/'/>
-            <Route className='navigation' component={About} exact path='/about' />
-            <Route className='navigation' component={Gigs} exact path='/gigs' />
-            <Route className='navigation' component={Login} exact path='/login' />
-            <Route className='navigation' component={Signup} exact path='/signup' />
+            <Route component={Navigation} path='/'/>
+            <Route component={Home} exact path='/'/>
+            <Route component={About} exact path='/about' />
+            <Route component={Gigs} exact path='/gigs' />
+            <Route component={Login} exact path='/login' />
+            <Route component={Signup} exact path='/signup' />
+            <Route component={Footer} path='/'/>
         </BrowserRouter>
     );
   }

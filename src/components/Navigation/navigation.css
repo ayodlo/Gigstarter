@@ -1,4 +1,4 @@
-@media(min-width: 777px) {
+@media(min-width: 848px) {
   
   .nav-container {
     align-items: center;
@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
     }
     
     .nav-right, .nav-left {
@@ -63,7 +64,7 @@
   }
   
   /* Position and sizing of burger button */
-  @media(max-width: 776px) {
+  @media(max-width: 847px) {
     
     .nav-container-mobile {
       position: fixed;

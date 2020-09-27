@@ -1,7 +1,7 @@
 //Assets
-import searchicon from '../../../../assets/search.svg'
-import envelope from '../../../../assets/envelope.svg'
-import growth from '../../../../assets/growth.svg'
+import searchicon from '../../../../assets/search.svg';
+import envelope from '../../../../assets/envelope.svg';
+import growth from '../../../../assets/growth.svg';
 
 //CSS
 import './Section1.css'
@@ -21,22 +21,22 @@ const Section1 = () => {
             <div className='Section1__steps'>
                 <div className='Section1__steps__step'>
                     <img src={searchicon} alt="search" width="64px" />
-                    <h3>Step 1</h3>
-                    <p>
+                    <h2 className='Section1__steps__step__header'>Step 1</h2>
+                    <p className='Section1__steps__step__description'>
                         Scroll through hundreds of gig opportunities offered on Gigstarter.
                     </p>
                 </div>
                 <div className='Section1__steps__step'>
                     <img src={envelope} alt="envelope" width="64px" />
-                    <h3>Step 2</h3>
-                    <p>
+                    <h2 className='Section1__steps__step__header'>Step 2</h2>
+                    <p className='Section1__steps__step__description'>
                         If you show interest in a gig, contact the employer to discover the details of the job.
                     </p>
                 </div>
                 <div className='Section1__steps__step'>
                     <img src={growth} alt="money" width="64px" />
-                    <h3>Step 3</h3>
-                    <p>
+                    <h2 className='Section1__steps__step__header'>Step 3</h2>
+                    <p className='Section1__steps__step__description'>
                         Once the gig is complete, get paid for the work you have done!
                     </p>
                 </div>

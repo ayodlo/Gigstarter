@@ -1,0 +1,81 @@
+.Section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .Section3__bigPicture {
+    color: white;
+    background-image: url('../../../../assets/orangeind.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    min-height: 530px;
+    margin: auto;
+    max-width: 50%;
+    min-width: 530px;
+    padding: 5.5rem;
+  }
+  
+  .Section3__bigPicture__heading {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    margin-left: -2rem;
+    margin-top: 4rem;
+  }
+  
+  .Section3__bigPicture__description {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    margin-left: -2rem;
+    margin-top: 0;
+    width: 75%;
+  }
+  
+  .Section3__steps {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 1rem 3rem;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .Section3__steps__step {
+    margin: 1.5rem .5rem;
+    min-width: 150px;
+    width: 20%;
+  }
+
+@media (max-width: 640px) {
+
+  .Section3__bigPicture {
+    background-image: none;
+    color: black;
+    height: auto;
+    justify-content: flex-start;
+    min-height: 0px;
+    min-width: 100%;
+    padding: 1.5rem 1rem 0 1rem;
+    width: 100%;
+  }
+
+  .Section3__bigPicture__heading,
+  .Section3__bigPicture__description {
+    margin-left: 0;
+  }
+  
+}

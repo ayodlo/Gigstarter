@@ -1,0 +1,80 @@
+.Section4 {
+    font-weight: 300;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.Section4__header {
+    margin-bottom: 2rem;
+}
+
+.Section4__description {
+    font-size: 1.3rem;
+}
+
+.Section4__ctas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+
+.Section4__ctas__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section4__ctas__cta__button {
+    border: none;
+    border-radius: .25rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    width: 256px;
+    transition: all 200ms ease-in-out;
+}
+
+.Section4__ctas__cta__button:hover {
+    cursor: pointer;
+}
+
+.Section4__ctas__cta__button--blue {
+    background-color: #007aff;
+}
+
+.Section4__ctas__cta__button--blue:hover {
+    background-color: #007bff9d;
+}
+
+.Section4__ctas__cta__button--green {
+    background-color: #27a844;
+}
+
+.Section4__ctas__cta__button--green:hover {
+    background-color: #27a843a1;
+}
+
+.Section4__ctas__or {
+    font-size: 4rem;
+    color: rgb(197, 197, 197);
+    margin: 2rem;
+}
+
+@media(max-width: 730px) {
+    
+    .Section4__ctas__cta__emoji {
+        width: 100px;
+    }
+
+    .Section4__ctas__cta__button {
+        width: 115px;
+    }
+
+    .Section4__ctas__or {
+        font-size: 2rem;
+    }
+
+}

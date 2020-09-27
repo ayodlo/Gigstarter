@@ -12,7 +12,7 @@
   background-position: left top;
   background-size: 100vw;
   height: 100vh;
-  padding-top:6rem;
+  padding-top:10rem;
   text-align: center;
   top: 0;
 }
@@ -53,13 +53,22 @@
   width: 600px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1046px) {
+
+  .Jumbotron {
+    justify-content: flex-start;
+    padding-top: 14rem;
+  }
+  
+}
+
+@media (max-width: 730px) {
   .Jumbotron {
     background-position: 25%;
     background-size: cover;
     justify-content: flex-start;
     height: 100%;
-    padding-top: 8rem;
+    padding-top: 9rem;
     padding-bottom: 8rem;
     width: 100vw;
   }
