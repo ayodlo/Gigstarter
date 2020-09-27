@@ -19,6 +19,7 @@ class App extends React.Component {
         <BrowserRouter>
             <Route component={Navigation} path='/'/>
             <Route component={Home} exact path='/'/>
+            <Route component={Home} exact path='/gigstarter'/>
             <Route component={About} exact path='/about' />
             <Route component={Gigs} exact path='/gigs' />
             <Route component={Login} exact path='/login' />
