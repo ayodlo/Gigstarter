@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/gigstarter/static/css/main.0875db77.chunk.css",
+    "main.js": "/gigstarter/static/js/main.04d7540a.chunk.js",
+    "main.js.map": "/gigstarter/static/js/main.04d7540a.chunk.js.map",
+    "runtime-main.js": "/gigstarter/static/js/runtime-main.d50789dc.js",
+    "runtime-main.js.map": "/gigstarter/static/js/runtime-main.d50789dc.js.map",
+    "static/js/2.16e46f73.chunk.js": "/gigstarter/static/js/2.16e46f73.chunk.js",
+    "static/js/2.16e46f73.chunk.js.map": "/gigstarter/static/js/2.16e46f73.chunk.js.map",
+    "index.html": "/gigstarter/index.html",
+    "precache-manifest.52a3317621bb93912e436520c92ac777.js": "/gigstarter/precache-manifest.52a3317621bb93912e436520c92ac777.js",
+    "service-worker.js": "/gigstarter/service-worker.js",
+    "static/css/main.0875db77.chunk.css.map": "/gigstarter/static/css/main.0875db77.chunk.css.map",
+    "static/js/2.16e46f73.chunk.js.LICENSE.txt": "/gigstarter/static/js/2.16e46f73.chunk.js.LICENSE.txt",
+    "static/media/Jumbotron.css": "/gigstarter/static/media/back2.7c1f7879.jpg",
+    "static/media/businessman.svg": "/gigstarter/static/media/businessman.12bce3f0.svg",
+    "static/media/employee.svg": "/gigstarter/static/media/employee.f783850e.svg",
+    "static/media/envelope.svg": "/gigstarter/static/media/envelope.8796c6c1.svg",
+    "static/media/facebook.svg": "/gigstarter/static/media/facebook.c0cd1382.svg",
+    "static/media/Section1.css": "/gigstarter/static/media/greenind.3797155a.svg",
+    "static/media/growth.svg": "/gigstarter/static/media/growth.8082cb02.svg",
+    "static/media/instagram.svg": "/gigstarter/static/media/instagram.b1c58ee1.svg",
+    "static/media/linkedin.svg": "/gigstarter/static/media/linkedin.4b475fb3.svg",
+    "static/media/money-bag.svg": "/gigstarter/static/media/money-bag.b86262bb.svg",
+    "static/media/Section3.css": "/gigstarter/static/media/orangeind.3cd45c17.svg",
+    "static/media/presentation.svg": "/gigstarter/static/media/presentation.6e7e061f.svg",
+    "static/media/search.svg": "/gigstarter/static/media/search.70d7efe5.svg",
+    "static/media/shop.svg": "/gigstarter/static/media/shop.8709a2d9.svg",
+    "static/media/twitter.svg": "/gigstarter/static/media/twitter.182d5ef4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d50789dc.js",
+    "static/js/2.16e46f73.chunk.js",
+    "static/css/main.0875db77.chunk.css",
+    "static/js/main.04d7540a.chunk.js"
+  ]
+}
