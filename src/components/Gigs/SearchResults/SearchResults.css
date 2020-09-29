@@ -1,0 +1,10 @@
+.SearchResults {
+    width: 40vw;
+}
+
+.SearchResults__jobCard {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,16 @@
+.Gigs {
+    background-color: white;
+    padding-top: 8rem;
+}
+
+.Gigs__searchBars,
+.Gigs__searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 639px) {
+
+}

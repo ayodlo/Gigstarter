@@ -1,0 +1,28 @@
+.Login {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width: 500px;
+}
+
+.Login__header {
+    margin-bottom: .5rem;
+}
+
+.Login__header2 {
+    margin-bottom: 1rem;
+}
+
+.Login__input {
+    padding: .5rem 1rem;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: .2rem;
+}
