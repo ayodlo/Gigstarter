@@ -37,8 +37,7 @@ class Login extends React.Component {
             email: this.state.email,
             password: this.state.password
         })
-        .then(console.log)
-        .then(handleLoginLogout(1))
+        .then(res => handleLoginLogout(res.data.id))
         .then(this.props.history.push('/'))
         .catch(function (error) {
                 console.log(error);
