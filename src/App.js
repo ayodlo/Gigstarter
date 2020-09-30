@@ -9,7 +9,7 @@ import Gigs from "./components/Gigs/Gigs";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import Navigation from "./components/Navigation/Navigation";
-import Signup from "./components/Signup/Signup";
+import Register from "./components/Register/Register";
 import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
@@ -17,6 +17,9 @@ class App extends React.Component {
     super();
     this.state = {
       userId: null,
+      name: '',
+      email: '',
+      joined: '',
       loggedIn: false,
     };
     this.handleLoginLogout = this.handleLoginLogout.bind(this);
@@ -68,7 +71,7 @@ class App extends React.Component {
             <Login {...props} handleLoginLogout={this.handleLoginLogout} />
           )}
         />
-        <Route component={Signup} exact path="/signup" />
+        <Route component={Register} exact path="/register" />
         <Route component={Footer} path="/" />
       </BrowserRouter>
     );
