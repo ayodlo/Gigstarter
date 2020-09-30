@@ -42,10 +42,19 @@
       padding-right: 0;
       transition: color ease-in-out .5s;
     }
+
+    .nav-right__button {
+      background-color: #f5f5f5;
+      border: none;
+      color: #141414;
+      font-size: 1.3rem;
+      transition: color ease-in-out .5s;
+    }
     
     .nav-right__item:hover,
     .nav-right__last-item:hover,
-    .nav-left__item:hover {
+    .nav-left__item:hover,
+    .nav-right__button {
       color: #39322c;
       cursor: pointer;
     }
